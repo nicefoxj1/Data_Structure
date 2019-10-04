@@ -111,7 +111,7 @@ int main() {
 }
 ```
 
-### - TASK (1)
+### - Example 2
 ```C++
 #include <iostream>
 using namespace std;
@@ -177,7 +177,7 @@ int main() {
 }
 ```
 
-### TASK (2)
+### TASK (1)
 ```C++
 
 /*
@@ -186,5 +186,41 @@ int main() {
 
 ```
 
+### TASK (2)
+```C++
+#include <iostream>
+#include <stdlib.h>
+
+using namespace std;
+
+void print_function(char **arr, int i) {
+
+	cout << "Array [" << i << "] saved " << arr[i] << endl;
+}
+
+void main() {
+	int n;
+	char **name;
+	char name_input[20];
+	cout << "Number of people : ";
+	cin >> n;
+
+	// Array name is allocated by user's number
+	/*
+		Write Down your Code
+	*/
+
+	
+	for (int i = 0; i < n; i++) {
+		cout << "name : ";
+		/*
+		
+		Write Down your Code
+		
+		*/
+	}
+}
+
+```
 
 
