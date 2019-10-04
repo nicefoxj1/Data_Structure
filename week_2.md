@@ -140,7 +140,7 @@ void Bird::set_age(int _age) {
 void Bird::set_name(char*_name){
 	strcat_s(name,_name);
 }
-*/
+
 int main(void) {
   /* Write down your own code */
 }
