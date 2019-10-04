@@ -184,7 +184,8 @@ int main(void) {
 ```
 ## 4. Structure
 ### - Example 1
-```C++#include <stdio.h>
+```C++
+#include <stdio.h>
 #include <iostream>
 #include <Windows.h>
 
